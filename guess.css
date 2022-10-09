@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+.guss{
+    border: 2px solid black;
+    width: 100%;
+    font:bold ;
+    columns: 2;
+    column-gap: 50px;
+    column-rule-width: 5px;
+    column-rule-style:solid ;
+    column-rule-color:gray;
+}
+.imagediv{
+    position: absolute;
+    top: 50%;
+}
+
+.imagediv img{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    opacity: 60%;
+}
+
+.content{
+    position: relative;
+}
